@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    z-index: 1;
 }
 
 body {
@@ -9,13 +10,14 @@ body {
 }
 
 #header {
-    overflow: hidden;
+    
     background-color: whitesmoke;
     padding: 10px 10px;
     width: 100%;
     position: fixed;
     z-index: 9999999;
     height: 75px;
+    
 }
 
 #header a {
@@ -27,6 +29,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+
 }
 
 #header a.logo {
@@ -41,6 +44,8 @@ body {
 
 .header-right {
     float: right;
+    background-color: whitesmoke;
+
 }
 
 .nav-link {
@@ -52,8 +57,13 @@ body {
     height: auto;
     position: relative;
     top: 75px;
-    z-index: -99999;
+   
 }
+@media only screen and (max-width: 500px) {
+    .responsive{
+        margin-top: 150px;
+       
+    }}
 
 table {
     font-family: arial, sans-serif;
