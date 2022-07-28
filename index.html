@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product page</title>
+
+    <!-- linking css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home">
+        <header id="header">
+            <nav id="nav-bar">
+                <img id="header-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+                    alt="logo" width="50px" height="50px">
+                <div class="header-right">
+                    <a class="nav-link" class="active" href="#home">Welcome</a>
+                    <a class="nav-link" href="#pd">Product Detail</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <img src="https://cdn.mos.cms.futurecdn.net/7PnHfuU8RNxFiGRGL3h9fQ.jpg" alt="Nature" class="responsive" width="600"
+        height="400">
+
+    <h2 style="text-align: center; margin-top: 85px;">MACBOOK PRO </h2>
+
+    <h3 style="text-align: center;">PRODUCT DETAIL</h3>
+
+    <section id="pd">
+        <table>
+            <tr>
+                <th colspan="2">General Features</th>
+            </tr>
+            <tr>
+                <td>Brand</td>
+                <td>Apple</td>
+            </tr>
+            <tr>
+                <td>Model</td>
+                <td>MacBook Pro 13-inch 2020</td>
+            </tr>
+            <tr>
+                <td>Model Name</td>
+                <td>MacBook Pro</td>
+            </tr>
+            <tr>
+                <td>Dimensions (mm)</td>
+                <td>15.60 x 304.10 x 212.40</td>
+            </tr>
+            <tr>
+                <td>Weight (kg)</td>
+                <td>1.4</td>
+            </tr>
+            <tr>
+                <td>Colours</td>
+                <td>Silver, Space Grey</td>
+            </tr>
+            <tr>
+                <td>Operating system</td>
+                <td>macOS</td>
+            </tr>
+            <tr>
+                <td>Battery Capacity (WHR)</td>
+                <td>58.2</td>
+            </tr>
+        </table>
+    </section>
+
+    <h3 style="text-align: center;">PRODUCT VIDEO</h3>
+
+    <div style="width: 70%; margin-right:auto; margin-left:auto; margin-bottom: 10px">
+        <div class="container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1yVF-N__JKk">
+                Your browser does not support iframes
+            </iframe>
+        </div>
+    </div>
+
+    <video id=video width=320 height=240 controls src="https://codedamn.com/assets/videos/new-homepage-demo.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3 style="text-align: center; ">WRITE US YOUR QUERY</h3>
+
+    <section id="contact">
+        <form id=form action="mailto:ghorik2615@email.com">
+            <label for="email">Email:</label>
+            <input type=email id=email placeholder="Enter your email id" name="email" required=true size="35" />
+            <br>
+            <br>
+            <input type="submit" id="submit" name="submit" value="submit">
+        </form>
+    </section>
+
+
+    <footer class="footer-class">
+        <div class="footer-content">
+            <h2 style="color:white">APPLE - YOUR TECH PARTNER</h2>
+            <p>THANK YOU FOR VIEWING OUR LATEST PRODUCT</p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="https://www.apple.com/">Go to our Website</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <b>
+                <p>Design and Developed By &copy; - KASHAN KHAN GHORI &reg;</p>
+            </b>
+        </div>
+    </footer>
+
+</body>
+
+</html>
